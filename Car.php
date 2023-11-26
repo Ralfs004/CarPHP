@@ -10,9 +10,9 @@
         }
 
         public function __destruct(){
-        echo $this->brand;
-        echo "<p>is dead at mileage </p>";
-        echo $this->mileage;
+        echo $this->brand, " ";
+        echo "is dead at mileage ";
+        echo $this->mileage, " ", "<br>";
         }
     }
 ;
